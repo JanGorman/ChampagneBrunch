@@ -1,8 +1,4 @@
 //
-//  ChampagneBrunch.h
-//  ChampagneBrunch
-//
-//  Created by Jan Gorman1 on 13.11.17.
 //  Copyright © 2017 Schnaub. All rights reserved.
 //
 

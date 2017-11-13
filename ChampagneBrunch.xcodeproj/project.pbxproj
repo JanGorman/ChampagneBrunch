@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		771CD48D1FB9F6E800C8E9A8 /* ChampagneBrunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CD48C1FB9F6E800C8E9A8 /* ChampagneBrunch.swift */; };
 		77AE96B21FB9DEC20056D02C /* ChampagneBrunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AE96A81FB9DEC20056D02C /* ChampagneBrunch.framework */; };
 		77AE96B71FB9DEC20056D02C /* ChampagneBrunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AE96B61FB9DEC20056D02C /* ChampagneBrunchTests.swift */; };
 		77AE96B91FB9DEC20056D02C /* ChampagneBrunch.h in Headers */ = {isa = PBXBuildFile; fileRef = 77AE96AB1FB9DEC20056D02C /* ChampagneBrunch.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		771CD48C1FB9F6E800C8E9A8 /* ChampagneBrunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampagneBrunch.swift; sourceTree = "<group>"; };
 		77AE96A81FB9DEC20056D02C /* ChampagneBrunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChampagneBrunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AE96AB1FB9DEC20056D02C /* ChampagneBrunch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChampagneBrunch.h; sourceTree = "<group>"; };
 		77AE96AC1FB9DEC20056D02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		77AE96AA1FB9DEC20056D02C /* ChampagneBrunch */ = {
 			isa = PBXGroup;
 			children = (
+				771CD48C1FB9F6E800C8E9A8 /* ChampagneBrunch.swift */,
 				77AE96AB1FB9DEC20056D02C /* ChampagneBrunch.h */,
 				77AE96AC1FB9DEC20056D02C /* Info.plist */,
 			);
@@ -149,6 +152,7 @@
 				TargetAttributes = {
 					77AE96A71FB9DEC20056D02C = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					77AE96B01FB9DEC20056D02C = {
@@ -214,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771CD48D1FB9F6E800C8E9A8 /* ChampagneBrunch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +357,7 @@
 		77AE96BD1FB9DEC20056D02C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -365,6 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.schnaub.ChampagneBrunch;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -373,6 +380,7 @@
 		77AE96BE1FB9DEC20056D02C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -394,6 +402,7 @@
 		77AE96C01FB9DEC20056D02C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CPRVB9W254;
 				INFOPLIST_FILE = ChampagneBrunchTests/Info.plist;
@@ -408,6 +417,7 @@
 		77AE96C11FB9DEC20056D02C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CPRVB9W254;
 				INFOPLIST_FILE = ChampagneBrunchTests/Info.plist;
