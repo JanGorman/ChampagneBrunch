@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		771CD48D1FB9F6E800C8E9A8 /* ChampagneBrunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771CD48C1FB9F6E800C8E9A8 /* ChampagneBrunch.swift */; };
+		773C1B371FBB2CC900C3BC5C /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773C1B361FBB2CC900C3BC5C /* Feature.swift */; };
 		77AE96B21FB9DEC20056D02C /* ChampagneBrunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77AE96A81FB9DEC20056D02C /* ChampagneBrunch.framework */; };
 		77AE96B71FB9DEC20056D02C /* ChampagneBrunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AE96B61FB9DEC20056D02C /* ChampagneBrunchTests.swift */; };
 		77AE96B91FB9DEC20056D02C /* ChampagneBrunch.h in Headers */ = {isa = PBXBuildFile; fileRef = 77AE96AB1FB9DEC20056D02C /* ChampagneBrunch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77FB60AD1FBC67AD00D1688C /* CodableBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FB60AC1FBC67AD00D1688C /* CodableBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,12 +27,14 @@
 
 /* Begin PBXFileReference section */
 		771CD48C1FB9F6E800C8E9A8 /* ChampagneBrunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampagneBrunch.swift; sourceTree = "<group>"; };
+		773C1B361FBB2CC900C3BC5C /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		77AE96A81FB9DEC20056D02C /* ChampagneBrunch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChampagneBrunch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AE96AB1FB9DEC20056D02C /* ChampagneBrunch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChampagneBrunch.h; sourceTree = "<group>"; };
 		77AE96AC1FB9DEC20056D02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77AE96B11FB9DEC20056D02C /* ChampagneBrunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChampagneBrunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AE96B61FB9DEC20056D02C /* ChampagneBrunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampagneBrunchTests.swift; sourceTree = "<group>"; };
 		77AE96B81FB9DEC20056D02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FB60AC1FBC67AD00D1688C /* CodableBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		773C1B3A1FBB329800C3BC5C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77FB60AC1FBC67AD00D1688C /* CodableBox.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		77AE969E1FB9DEC20056D02C = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				771CD48C1FB9F6E800C8E9A8 /* ChampagneBrunch.swift */,
+				773C1B3A1FBB329800C3BC5C /* Extensions */,
+				773C1B361FBB2CC900C3BC5C /* Feature.swift */,
 				77AE96AB1FB9DEC20056D02C /* ChampagneBrunch.h */,
 				77AE96AC1FB9DEC20056D02C /* Info.plist */,
 			);
@@ -218,6 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773C1B371FBB2CC900C3BC5C /* Feature.swift in Sources */,
+				77FB60AD1FBC67AD00D1688C /* CodableBox.swift in Sources */,
 				771CD48D1FB9F6E800C8E9A8 /* ChampagneBrunch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -4,8 +4,6 @@
 
 import Foundation
 
-final public class ChampagneBrunch {
-
-  
+public final class ChampagneBrunch {
 
 }
