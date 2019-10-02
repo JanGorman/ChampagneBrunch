@@ -3,6 +3,6 @@ osx_image: xcode11
 script:
   - git submodule init
   - bundle exec fastlane scan --code_coverage true
-  - bundle exec danger
+  # - bundle exec danger
 after_success:
   - bash <(curl -s https://codecov.io/bash)
