@@ -1,7 +1,5 @@
 language: objective-c
 osx_image: xcode11
-before_script:
-  - brew update && brew upgrade swiftlint
 script:
   - git submodule init
   - bundle exec fastlane scan --code_coverage true
